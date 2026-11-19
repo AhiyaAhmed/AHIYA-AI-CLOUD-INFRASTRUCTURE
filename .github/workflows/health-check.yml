@@ -1,0 +1,22 @@
+
+name: AHIYA AI Health Check
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check project
+        run: |
+          echo "AHIYA AI Infrastructure"
+          echo "GitHub Actions is working!"
+          ls -la
