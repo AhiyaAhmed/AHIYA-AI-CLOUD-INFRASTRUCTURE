@@ -1,6 +1,9 @@
 
 name = "ahiya-ai-cloud-api"
-
 main = "index.js"
-
 compatibility_date = "2026-11-20"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ahiya-ai-database"
+database_id = "e1ea926a-95c8-4bbe-832d-8914d653a1f7"
